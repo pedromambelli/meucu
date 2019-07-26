@@ -1,0 +1,44 @@
+.principal {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+}
+
+
+
+/* .principal mat-sidenav{
+  width: 20%;
+
+
+}
+
+.principal mat-sidenav-content{
+  width: 80%;
+
+} */
+
+h1 {
+  font-size: 2em;
+  font-family: GillSans, Calibri, Trebuchet, sans-serif;
+
+}
+
+.menu-toggle-btn {
+  display: flex;
+  float: left;
+  margin-right:0.5em;
+  margin-left:0.5em;
+  background-color: null;
+  color: #FFF;
+  font-size: 2em;
+  /* border-color: #FFF; */
+
+}
+.menu-toggle-btn span {
+
+  color: #FFF;
+  font-size: 1em;
+
+}

@@ -9,7 +9,15 @@ export class HeaderComponent implements OnInit {
 
   constructor() { }
 
+  aba = 'meu-periodo';
+
   ngOnInit() {
+    console.log('Componente iniciado');
   }
+
+  // setAba(aba:string){
+  //   this.aba = aba;
+  //
+  // }
 
 }

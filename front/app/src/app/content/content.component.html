@@ -1,1 +1,34 @@
-<p>content works!</p>
+<mat-sidenav-container class="principal">
+
+
+
+
+  <mat-sidenav #sidenav mode="side" [(opened)]="opened" >
+    <mat-card class="no-margin">
+    <mat-card-title class="text-center brand">
+      <img mat-card-img src="assets/img/logo.png" alt="Photo of a Shiba Inu" class="brand">
+    </mat-card-title>
+    </mat-card>
+
+    <mat-nav-list color="primary">
+       <a mat-list-item>Meu Período</a>
+       <a mat-list-item>Próximos Períodos</a>
+       <a mat-list-item>Consultas</a>
+       <a mat-list-item>Ferramentas</a>
+       <a mat-list-item>Links Importantes</a>
+    </mat-nav-list>
+
+  </mat-sidenav>
+
+  <mat-sidenav-content>
+    <mat-toolbar color="primary">
+      <div class="row">
+          <button (click)="sidenav.toggle()" class="menu-toggle-btn btn my-auto">+</button>
+          <h1 class="my-auto" >Meu C.U.</h1>
+      </div>
+    </mat-toolbar>
+
+
+  </mat-sidenav-content>
+
+</mat-sidenav-container>

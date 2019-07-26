@@ -10,7 +10,7 @@ import {MatDialog} from '@angular/material';
 
 
 export class AppComponent {
-  title = 'app';
+  aba = 'meu-periodo';
 
   constructor(public dialog: MatDialog) {}
 
