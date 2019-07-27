@@ -16,7 +16,7 @@ app.use(express.json());
 // Routes
 
 app.use('/mufla_api/alunos' , require('./routes/aluno.routes'));
-
+app.use('/mufla_api/cursos' , require('./routes/curso.routes'));
 // Starting Server
 app.listen(app.get('port'), () => {
   console.log("Servidor rodando na porta", app.get('port'));

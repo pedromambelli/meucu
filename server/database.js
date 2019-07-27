@@ -1,6 +1,6 @@
 const mongoose = require('mongoose');
 
-const URI = "mongodb://localhost/mufla";
+const URI = "mongodb://localhost/elufla";
 
 mongoose.connect(URI)
   .then( db => {
